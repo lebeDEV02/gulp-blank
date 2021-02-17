@@ -1,0 +1,36 @@
+@font-face{
+	font-family: 'Arvo-Regular';
+	font-weight: 400;
+	font-style: normal;
+	src: local('Arvo-Regular'),
+		url('../fonts/Arvo-Regular.woff2') format('woff2'),
+		url('../fonts/Arvo-Regular.woff') format('woff');
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Arvo-Bold';
+	font-weight: 700;
+	font-style: normal;
+	src: local('Arvo-Bold'),
+		url('../fonts/Arvo-Bold.woff2') format('woff2'),
+		url('../fonts/Arvo-Bold.woff') format('woff');
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Regular';
+	font-weight: 400;
+	font-style: normal;
+	src: local('Lato-Regular'),
+		url('../fonts/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato-Regular.woff') format('woff');
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Bold';
+	font-weight: 700;
+	font-style: normal;
+	src: local('Lato-Bold'),
+		url('../fonts/Lato-Bold.woff2') format('woff2'),
+		url('../fonts/Lato-Bold.woff') format('woff');
+	font-display: swap;
+}

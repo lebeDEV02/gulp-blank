@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+
+.header{
+	background-color: $bg;
+	&__inner{
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__inner-logolink{
+		font-size: 48px;
+		display: block;
+		color: $text;
+		line-height: 46px;
+	}
+	&__inner-menu{
+		display: flex;
+	}
+	&__inner-item{
+		&+&{
+			margin-left: 25px;
+		}
+	}
+	&__inner-link{
+		color: $text;
+		font-size: 20px;
+		transition: all .3s;
+				&:hover{
+			color: $accent;
+		}
+	}
+}
